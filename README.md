@@ -56,6 +56,14 @@ Hospital readmissions remain a major healthcare quality and cost challenge. This
 * Geographic Analysis
 * Executive Reporting
 * Data Storytelling
+
+  ## Data Sources
+
+1. CMS Hospital Readmissions Reduction Program (HRRP)csv
+https://data.cms.gov/provider-data/dataset/9n3s-kdb3
+
+2. CMS Hospital General Information csv
+https://data.cms.gov/provider-data/dataset/xubh-q36u
 ---
 ## Author
 **Alice Shingirirai Mataruse**
