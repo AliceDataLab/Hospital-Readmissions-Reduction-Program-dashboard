@@ -1,125 +1,61 @@
-# Hospital Readmissions Reduction Program Dashboard
+#  Hospital Readmissions Executive Dashboard
+
+## Dashboard Preview
+
+![Hospital Readmissions Executive Dashboard](dashboard.png)
 
 ## Project Overview
-This project analyzes hospital readmission performance across the United States using data from the Centers for Medicare & Medicaid Services (CMS) Hospital Readmissions Reduction Program (HRRP). The objective was to identify patterns in readmission outcomes, evaluate state-level performance, compare hospital ownership types, and highlight conditions contributing most to readmission burden.
 
-Using Power BI, Excel, and DAX, I developed an interactive executive dashboard that transforms raw CMS data into actionable insights for healthcare decision-makers.
+This Power BI project analyzes hospital readmission performance across 3,055 hospitals in 51 U.S. states and territories using CMS Hospital Readmissions Reduction Program (HRRP) data.
+
+The dashboard was developed to identify readmission risk patterns, compare hospital ownership performance, evaluate geographic trends, and highlight opportunities for healthcare quality improvement.
+
 ---
+
 ## Business Problem
-Hospital readmissions are a major quality and cost concern within the U.S. healthcare system. Excessive readmissions may indicate gaps in patient care, discharge planning, or follow-up treatment.
 
-This project addresses the question:
-**Which states, hospital ownership types, and medical conditions are associated with higher hospital readmission risk, and where should healthcare organizations focus improvement efforts?**
+Hospital readmissions remain a major healthcare quality and cost challenge. This project answers the following questions:
+
+* Which states have the highest and lowest readmission risk?
+* Which medical conditions drive the largest readmission burden?
+* How does hospital ownership influence readmission performance?
+* How many hospitals exceed the national benchmark?
 ---
-## Dataset
-**Source:** Centers for Medicare & Medicaid Services (CMS)
-The dataset contains information from:
-* 3,055 hospitals
-* 51 states and territories
-* 6 monitored medical conditions
-* Fiscal Years 2021–2024
+## Key Insights
 
-Key fields include:
-* State
-* Hospital Ownership Type
-* Condition
-* Excess Readmission Ratio
-* Hospital Information
-* Readmission Performance Metrics
----
-## Project Objectives
-* Evaluate hospital readmission performance across states.
-* Identify states performing above and below national benchmarks.
-* Compare readmission outcomes by hospital ownership type.
-* Determine which medical conditions contribute most to readmission burden.
-* Develop an executive-level dashboard for healthcare stakeholders.
----
-## Tools and Technologies
-
-### Data Preparation
-* Microsoft Excel
-* Data Cleaning
-* Data Validation
-* Data Type Conversion
-* Missing Value Handling
-
-### Data Modeling
-* Power BI
-* Star Schema Design
-* Fact and Dimension Tables
-* Relationship Modeling
-
-### Analysis
-* DAX Measures
-* KPI Development
-* Conditional Formatting
-* Performance Benchmarking
-
-### Visualization
-* Power BI Desktop
-* Filled Maps
-* KPI Cards
-* Ranking Visualizations
-* Interactive Filters and Slicers
+* **48.15%** of hospitals exceeded the national readmission benchmark.
+* **Pneumonia** generated the highest readmission burden (2.7K readmissions).
+* **Massachusetts** recorded the highest average excess readmission ratio (1.03).
+* **Idaho** recorded the lowest average excess readmission ratio (0.94).
+* Government-Federal and Proprietary hospitals showed the highest readmission risk.
 ---
 ## Dashboard Features
 
-### Executive KPI Summary
-* Total Hospitals Analyzed
-* Percentage of Hospitals Penalized
-* Highest Risk State
-* Best Performing State
-
-### Geographic Risk Analysis
-Interactive state-level map displaying average excess readmission ratios across the United States.
-
-### Condition-Level Analysis
-Comparison of readmission burden across six major medical conditions.
-
-### Ownership Performance Analysis
-Evaluation of readmission outcomes by hospital ownership category.
-
-### State Rankings
-Identification of top-performing and highest-risk states based on average excess readmission ratios.
+* Executive KPI Summary
+* Geographic Risk Analysis
+* Top 5 Highest-Risk States
+* Top 5 Lowest-Risk States
+* Readmission Analysis by Condition
+* Ownership Performance Analysis
+* Interactive Filters and Slicers
 ---
-## Key Findings/Insights 
+## Tools & Technologies
 
-### 1. Nearly Half of Hospitals Are Penalized
-48.15% of hospitals perform above the national benchmark threshold, indicating substantial opportunities for quality improvement.
-
-### 2. Significant Geographic Variation Exists
-Readmission performance differs considerably across states, revealing regional disparities in healthcare outcomes.
-
-### 3. Massachusetts Has the Highest Average Readmission Risk
-Massachusetts recorded the highest average excess readmission ratio among all states analyzed.
-
-### 4. Idaho Demonstrates Strong Performance
-Idaho achieved the lowest average excess readmission ratio, indicating stronger readmission outcomes relative to the national benchmark.
-
-### 5. Ownership Structure Influences Performance
-For-profit hospitals generally demonstrated higher readmission risk compared to physician-owned hospitals.
-### 6. Pneumonia Represents the Largest Readmission Burden
-Pneumonia generated the highest number of readmission-related records, making it a priority area for intervention.
----
-## Business Recommendations
-* Strengthen discharge planning and follow-up care programs in high-risk states.
-* Prioritize improvement initiatives for pneumonia and heart failure patients.
-* Investigate operational practices used by top-performing states.
-* Monitor ownership-related performance differences to identify best practices.
-* Implement targeted quality improvement strategies in underperforming regions.
+* Power BI
+* DAX
+* Microsoft Excel
+* CMS Hospital Readmissions Reduction Program (HRRP) Dataset
 ---
 ## Skills Demonstrated
-* Healthcare Analytics
-* Business Intelligence
-* Data Cleaning
-* Data Modeling
-* DAX Development
-* KPI Design
-* Dashboard Development
+
 * Data Visualization
+* Dashboard Development
+* Healthcare Analytics
+* DAX Measures
+* KPI Design
 * Geographic Analysis
 * Executive Reporting
-* Storytelling with Data
+* Data Storytelling
 ---
 ## Author
 **Alice Shingirirai Mataruse**
